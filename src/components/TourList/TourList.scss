@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+width:100vw;
+height: 100vh;
+}
+.tourlist{
+    width: 70vw;
+ 
+    margin:0 auto;
+    padding: 2rem ;
+}
+@media screen and (min-width:852px){
+    .tourlist{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+    }
+}
+@media screen and (min-width:1273px){
+    .tourlist{
+        display: grid;
+        width: 85vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+
+    }
+}
